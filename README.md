@@ -36,7 +36,8 @@ I will be selecting the best out of SVC, LogisticRegression, DecisionTreeClassif
 
 Place the images in a folder called 'data' in the same folder as the Notebook. The structure of the folder should be like "*data\\notspam (1).jpeg; data\\notspam (2).jpeg; .....; data\\spam (1).jpg ...*"
 
-The Notebook 'phase 1' processes the raw images and extracts features from them
+The Notebook 'phase 1' processes the raw images and extracts features from them.
+
 The Notebook 'phase 2' contains the actual image classification code.
 
 There is a 'data.pckl' and 'labels.pckl' file with the Notebook, these contain the data matrix and the target variable numpy array respectively. The code below gives preference to loading the data from the .pckl files over processing the images again and again.
